@@ -11,7 +11,7 @@ public string id;
     public AccController(ApexPages.StandardController controller) {
     stdController = controller;
 
-        // initialize the refresh value as false dsfsdg
+        // initialize the refresh value as false dsfsdg  testttt
         refreshPage = false;
     acc=[select id,name,ownerid from account];
     id=acc[0].id;
